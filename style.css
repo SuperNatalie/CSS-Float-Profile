@@ -1,0 +1,44 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h2 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 2vh;
+}
+
+p {
+  font-size: smaller;
+}
+img {
+  width: 150px;
+}
+
+div {
+  height: 40vh;
+  width: 80vw;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+}
+
+.ada img {
+  float: left;
+  shape-outside: circle(50%);
+}
+
+.grace img {
+  float: right;
+  clip-path: polygon(
+    30% 0%,
+    70% 0%,
+    100% 30%,
+    100% 70%,
+    70% 100%,
+    30% 100%,
+    0% 70%,
+    0% 30%
+  );
+}
